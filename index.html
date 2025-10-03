@@ -6,13 +6,20 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> </head>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
 <body>
 
     <header>
         <nav>
-            <a href="#home" class="logo">     My Portfolio</a>
+            <a href="#home" class="logo">My Portfolio</a>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -23,24 +30,27 @@
     </header>
 
     <main>
+        <!-- Home Section -->
         <section id="home" class="home-section">
             <div class="home-content">
                 <img src="image.jpeg" alt="Profile Picture" class="profile-img">
                 <h1>Nandini Pawar</h1>
-                <p class="subtitle">Python Full Stack Developer | Web Developer | AIML Enthusiast </p>
+                <p class="subtitle">Python Full Stack Developer | Web Developer | AIML Enthusiast</p>
             </div>
         </section>
 
+        <!-- About Section -->
         <section id="about" class="content-section">
             <h2>About Me</h2>
-            <p>Hello! I’m Nandini Pawar, a passionate Python Full Stack Developer and AI/ML enthusiast. I specialize in building robust and scalable web applications using modern technologies like HTML, CSS, JavaScript, React, and Python frameworks.Alongside web development, I enjoy working on Artificial Intelligence and Machine Learning projects, designing predictive models and intelligent solutions that transform raw data into actionable insights. I thrive on solving complex problems, continuously learning emerging technologies, and creating software that provides exceptional user experiences. My goal is to combine my skills in web development and AI/ML to build innovative, data-driven applications that make a real impact.</p>
+            <p>Hello! I’m Nandini Pawar, a passionate Python Full Stack Developer and AI/ML enthusiast. I build robust web applications using HTML, CSS, JavaScript, React, and Python frameworks. I also design AI/ML models that transform raw data into actionable insights. I thrive on solving complex problems and creating software that delivers exceptional user experiences.</p>
         </section>
 
+        <!-- Skills Section -->
         <section id="skills" class="content-section">
             <h2>My Skills</h2>
             <div class="skills-container">
                 <div class="skill-card">HTML5</div>
-                <div class="skill-card">CSS3 & </div>
+                <div class="skill-card">CSS3</div>
                 <div class="skill-card">JavaScript (ES6+)</div>
                 <div class="skill-card">Python</div>
                 <div class="skill-card">SQL</div>
@@ -48,88 +58,32 @@
                 <div class="skill-card">Python Libraries</div>
             </div>
         </section>
-        
-        <section id="certifications" class="content-section">
-            <h2>Certifications</h2>
-            <div class="card-container">
-                <div class="card">
-                    <h3>Python for Data Science , AI & Develoment</h3>
-                    <p><strong>Issuing Organization:</strong> United Latino Students Association</p>
-                    <p><em>Issued: Feb 2025</em></p>
-                    <a href="https://www.coursera.org/account/accomplishments/records/WT76KDYHIP51" class="btn">View Credential</a>
-                </div>
-                <div class="card">
-                    <h3>Software Engineering </h3>
-                    <p><strong>Issuing Organization:</strong> Indian Institude of Technology Kharagpur</p>
-                    <p><em>Issued: Dec 2024</em></p>
-                    <a href="https://nptel.ac.in/noc/E_Certificate/NPTEL24CS119S95200113204192030" class="btn">View Credential</a>
-                </div>
-                <div class="card">
-                    <h3>Digital 101- 30 Hours</h3>
-                    <p><strong>Issuing Organization:</strong> Nasscom</p>
-                    <p><em>Issued: Dec 2024</em></p>
-                    <a href="https://nasscom--uat.sandbox.my.salesforce-sites.com/CDACcertificatePage2?id=a02Vy000001ewJFIAY" class="btn">View Credential</a>
-                </div>
-                <div class="card">
-                    <h3>Python Programming: Basic Skills</h3>
-                    <p><strong>Issuing Organization:</strong>Codio</p>
-                    <p><em>Issued: April 2024</em></p>
-                    <a href="https://courses.edx.org/certificates/4c39f0625fd24f869158c920ff9a7f2e?_gl=1*787ia4*_ga*NjcyMTI5MDk3LjE3MDE3MDY0Nzg.*_ga_D3KS4KMDT0*MTcxMjU4ODMzNi45LjEuMTcxMjU5NDM0NS42MC4wLjA." class="btn">View Credential</a>
-                </div>
-                
-        </section>
 
-
+        <!-- Projects Section -->
         <section id="projects" class="content-section">
             <h2>Projects</h2>
             <div class="card-container">
                 <div class="card">
-                    <h3>SmartKidney:Machine Learning- Based Chronic Kidney Disease Detection System</h3>
-                    <p>Developed a Machine Learning model to predict and classify Chronic Kidney Disease (CKD) at an early stage using patient medical records. Implemented data preprocessing, feature selection, and model training to ensure accurate and reliable predictions.  </p>
+                    <h3>SmartKidney: ML-Based Chronic Kidney Disease Detection</h3>
+                    <p>Built a Machine Learning model to predict Chronic Kidney Disease using patient records. Implemented preprocessing, feature selection, and model training for accurate predictions.</p>
                     <a href="https://github.com/nandini6983/Chronic-Kidney-Disease-Detector" class="btn">View on GitHub</a>
                 </div>
-                
                 <div class="card">
                     <h3>Portfolio Website</h3>
-                    <p>The very website you are looking at! Designed to be clean, interactive, and fully responsive using modern CSS techniques.</p>
+                    <p>The very website you are on! Interactive and fully responsive using modern CSS techniques.</p>
                     <a href="#" class="btn">View</a>
                 </div>
             </div>
         </section>
 
-        <section id="experience" class="content-section">
-            <h2>Experience</h2>
-            <div class="card-container">
-                <div class="card">
-                    <h3>Python Full Stack Developer Virtual Internship</h3>
-                    <p><strong>Eduskills</strong> | <em>January-March 2025</em></p>
-                    <ul>
-                        <li>Learned and applied Python for backend development, including Flask/Django frameworks.</li>
-                        <li>Built dynamic web applications with fully functional front-end and back-end integration.</li>
-                        <li>Practiced version control using Git and GitHub for collaborative development.</li>
-                    </ul>
-                    <a href="https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=a4051988460f46208987f16607a31487" class="btn">View Credential</a>
-                </div>
-                <div class="card">
-                    <h3>Web Full Stack Developer Virtual Internship</h3>
-                    <p><strong>Eduskills</strong> | <em>January-March 2025</em></p>
-                    <ul>
-                        <li>Developed full-stack web applications using HTML, CSS, JavaScript, and Node.js.</li>
-                        <li>Built dynamic web applications with fully functional front-end and back-end integration.</li>
-                        <li>Managed databases with SQL and NoSQL solutions for dynamic applications.</li>
-                    </ul>
-                    <a href="https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=43d673f4964468147e7ea490766611d4" class="btn">View Credential</a>
-                </div>
-            </div>
-        </section>
-
+        <!-- Contact Section -->
         <section id="contact" class="content-section">
             <h2>Get In Touch</h2>
-            <p>I'm currently open to new opportunities. Feel free to reach out!</p>
+            <p>I'm open to new opportunities. Feel free to reach out!</p>
             <div class="contact-links">
-                <a href="mailto:pawarnandini2005@gmail.com" class="contact-btn" id="B1" target="_blank" rel="noopener noreferrer"> Email Me</a>
-                <a href="https://github.com/nandini6983" target="_blank" class="contact-btn" id="B2">GitHub</a>
-                <a href="https://www.linkedin.com/in/nandini-pawar-1682a2290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="contact-btn" id="B3">LinkedIn</a>
+                <a href="mailto:pawarnandini2005@gmail.com" class="contact-btn">Email Me</a>
+                <a href="https://github.com/nandini6983" target="_blank" class="contact-btn">GitHub</a>
+                <a href="https://www.linkedin.com/in/nandini-pawar-1682a2290" target="_blank" class="contact-btn">LinkedIn</a>
             </div>
         </section>
     </main>
