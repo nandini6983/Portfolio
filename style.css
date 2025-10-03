@@ -262,8 +262,24 @@ footer {
 }
 /* Mobile Responsive */
 @media (max-width: 768px) {
-    nav ul { display: none; flex-direction: column; width: 100%; background: var(--header-color); position: absolute; top: 60px; left: 0; }
-    nav ul.show { display: flex; }
-    nav ul li { margin: 1rem 0; text-align: center; }
-    .hamburger { display: flex; }
+    nav ul { 
+        display: none; 
+        flex-direction: column; 
+        width: 100%; 
+        background: var(--header-color); 
+        position: absolute; 
+        top: 90px; 
+        left: 0; 
+    }
+    nav ul.show {
+        display: flex; 
+    }
+    nav ul li { 
+        margin: 1rem 0; 
+        text-align: center; 
+    }
+    .hamburger { 
+        display: flex; 
+    }
 }
+
