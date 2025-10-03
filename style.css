@@ -63,6 +63,19 @@ nav ul li a {
 nav ul li a:hover, nav ul li a.active { 
     color: var(--bg-color); 
 }
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.hamburger span {
+    height: 3px;
+    width: 25px;
+    background: #fff;
+    margin-bottom: 4px;
+    border-radius: 2px;
+}
 
 /* 
    Main Content & Sections
@@ -246,4 +259,11 @@ footer {
     background-color: var(--header-color);
     color: var(--bg-color);
     font-size: 0.9rem;
+}
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    nav ul { display: none; flex-direction: column; width: 100%; background: var(--header-color); position: absolute; top: 60px; left: 0; }
+    nav ul.show { display: flex; }
+    nav ul li { margin: 1rem 0; text-align: center; }
+    .hamburger { display: flex; }
 }
